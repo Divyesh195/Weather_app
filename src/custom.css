@@ -1,0 +1,26 @@
+body{
+    font-family: Freeman;
+}
+.box{
+    width: 150px;
+    background-color: white;
+    color: darkblue;
+    border-radius: 6px;
+}
+.forecast{
+    width: fit-content;
+    margin: auto;
+}
+.card{
+    width: 100%;
+}
+.temp hr{
+    width: 90%;
+    margin: auto;
+}
+@media (max-width:600px) { 
+    .search{
+        margin: 0 auto;
+        margin-top: 1rem;
+    }
+}
