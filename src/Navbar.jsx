@@ -7,8 +7,7 @@ export default function Navbar() {
 return (
 <div className='bg-linear-to-l from-black to-gray-900 text-white font-bold sm:flex justify-between items-center py-4 px-3'>
   <div className="sm:text-xl text-md sm:flex items-center text-center gap-5">
-    <div><a href='#' className='text-2xl'>Div95</a></div>
-    <div><a href='./About.jsx'>About US</a></div>
+    <div><a href='/' className='text-2xl'>Div95</a></div>
   </div>
 
   {/* Search bar */}
