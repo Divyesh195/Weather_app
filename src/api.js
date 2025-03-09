@@ -36,10 +36,10 @@ const GetWeather = (city) => {
     .catch((err) => console.error(err));
 }
 
-btnsub.addEventListener("click",(e)=>{
-  e.preventDefault(); 
-  GetWeather(xyz.value);
-})
+// btnsub.addEventListener("click",(e)=>{
+//   e.preventDefault(); 
+//   GetWeather(xyz.value);
+// })
 
 
 
